@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Weatherbox</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <label>
+      <input id="switch" type="checkbox" />
+      <div class="top">
+        <svg viewbox="0 0 460 100">
+        <circle cx="20" cy="23" r=3></circle>
+        <text x="20" y="23">32°C</text>
+        <circle cx="80" cy="38" r=3></circle>
+        <text x="80" y="38">30°C</text>
+        <circle cx="140" cy="48" r=3></circle>
+        <text x="140" y="48">27°C</text>
+        <circle cx="200" cy="40" r=3></circle>
+        <text x="200" y="40">29°C</text>
+        <circle cx="260" cy="30" r=3></circle>
+        <text x="260" y="30">31°C</text>
+        <circle cx="320" cy="37" r=3></circle>
+        <text x="320" y="37">29°C</text>
+        <circle cx="380" cy="42" r=3></circle>
+        <text x="380" y="42">28°C</text>
+        <circle cx="440" cy="50" r=3></circle>
+        <text x="440" y="50">26°C</text>
+        <polyline points="20,23 80,38 140,48 200,40 260,30 320,37 380,42 440,50"></polyline>
+        </svg>
+      </div>
+      <div class="moon"></div>
+      <div class="cloud">
+        <div class="rain"></div>
+        <div class="rain rain2"></div>
+        <div class="rain rain3"></div>
+      </div> 
+      <svg class="skytower" viewbox="-50 -50 100 100">
+        <line x1="0" x2="0" y1="-34" y2="-38" stroke="#0E2431"></line>
+        <rect x="-5" y="-30" width="10" height="25" fill="#0E2431"></rect>
+        <polygon points="-5,-30 5,-30 0,-35" fill="#0E2431"></polygon>
+        <rect x="-15" y="-6" width="30" height="10" fill="#0E2431"></rect>
+        <rect x="-15" y="-10" width="5" height="5" fill="#0E2431"></rect>
+        <polygon points="-15,-10 -10,-10 -15,-13" fill="#0E2431"></polygon>
+        <rect x="10" y="-10" width="5" height="5" fill="#0E2431"></rect>
+        <polygon points="10,-10 15,-10 15,-13" fill="#0E2431"></polygon>
+        <rect x="-15" y="-6" width="10" height="20" fill="#0E2431"></rect>
+        <rect x="5" y="-6" width="10" height="20" fill="#0E2431"></rect>
+      </svg>
+  
+      <div class="text_area">
+        <h2>27°C</h2>
+        <h3>85 Sky Tower<br/>Kaoshiung,Taiwan</h3>
+      </div>
+      <div class="bottom">
+        <div class="week"><h3>MON</h3>
+          <svg viewbox="-50 -50 100 100">
+          <circle class="sun" cx=0 cy=0 r=22></circle></svg></div>
+        <div class="week"><h3>TUE</h3><svg viewbox="-50 -50 100 100">
+          <circle class="sun" cx=0 cy=0 r=22></circle></svg></div>
+        <div class="week"><h3>WED</h3><svg viewbox="-50 -50 100 100">
+          <circle class="sun" cx=0 cy=0 r=22></circle>
+          <circle class="cloud" cx=-30 cy=30 r=20></circle>
+          <circle class="cloud" cx=0 cy=30 r=20></circle>
+          <circle class="cloud" cx=-25 cy=10 r=15></circle>
+          <circle class="cloud" cx=-7 cy=15 r=15></circle>
+          </svg></div>
+        <div class="week"><h3>THU</h3><svg viewbox="-50 -50 100 100">
+          <circle class="sun" cx=0 cy=0 r=22></circle>
+          <circle class="cloud" cx=-30 cy=30 r=20></circle>
+          <circle class="cloud" cx=0 cy=30 r=20></circle>
+          <circle class="cloud" cx=-25 cy=10 r=15></circle>
+          <circle class="cloud" cx=-7 cy=15 r=15></circle>
+          </svg>
+        </div>
+        <div class="week"><h3>FRI</h3><svg viewbox="-50 -50 100 100">
+          <circle class="sun" cx=0 cy=0 r=22></circle></svg></div>
+        <div class="week"><h3>SAT</h3><svg viewbox="-63 -20 100 100">
+          <line class="rain" x1="-25" y1="35" x2="-25" y2="50"></line>
+          <line class="rain rain2" x1="10" y1="35" x2="10" y2="50"></line>
+          <line class="rain rain3" x1="-8" y1="30" x2="-8" y2="50"></line>
+          <circle class="cloud" cx=-30 cy=30 r=20></circle>
+          <circle class="cloud" cx=0 cy=30 r=20></circle>
+          <circle class="cloud" cx=-25 cy=10 r=15></circle>
+          <circle class="cloud" cx=-7 cy=15 r=15></circle>
+          </svg>
+        </div>
+        <div class="week"><h3>SUN</h3><svg viewbox="-63 -20 100 100">
+          <circle class="cloud" cx=-30 cy=30 r=20></circle>
+          <circle class="cloud" cx=0 cy=30 r=20></circle>
+          <circle class="cloud" cx=-25 cy=10 r=15></circle>
+          <circle class="cloud" cx=-7 cy=15 r=15></circle>
+          </svg>
+        </div>
+  </div>
+</body>
+</html>
